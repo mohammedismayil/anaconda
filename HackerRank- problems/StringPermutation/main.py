@@ -1,12 +1,15 @@
 everyelement = list()
 firstElement = list()
 anotherfirst = list()
+
 initialElements = list()
 def findPossibleLetters(letters):
+
     for i in range(len(letters)):
             dummy = list(letters)
             firstElement.append(dummy[i])
             dummy.remove(dummy[i])
+
             if len(dummy) > 2:
                 if i == len(letters):
                  firstElement.pop()
@@ -22,6 +25,15 @@ def findPossibleLetters(letters):
                 firstElement.pop()
                 print(len(everyelement))
                 print(everyelement)
+
+
+
+
+
+
+
+
+
 def swapTwoValues(values):
     news = list(values)
     finalValues = news
