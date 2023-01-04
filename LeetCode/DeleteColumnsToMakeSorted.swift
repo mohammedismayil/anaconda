@@ -1,3 +1,6 @@
+
+//https://leetcode.com/problems/delete-columns-to-make-sorted/submissions/871330126/
+
 class Solution {
     func minDeletionSize(_ strs: [String]) -> Int {
      
